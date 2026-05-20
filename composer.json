@@ -1,5 +1,5 @@
 {
-  "name": "hcloud/hsign",
+  "name": "damidani/hsign",
   "description": "Client API PHP natif pour l'instance hSign (Documenso)",
   "type": "library",
   "license": "MIT",
