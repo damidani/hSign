@@ -85,6 +85,6 @@ class Template
             $payload['override'] = $this->overrides;
         }
 
-        return $this->client->request('POST', 'template/send', $payload);
+        return $this->client->request('POST', 'template/use', $payload);
     }
 }
