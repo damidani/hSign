@@ -1,0 +1,22 @@
+{
+  "name": "hcloud/hsign",
+  "description": "Client API PHP natif pour l'instance hSign (Documenso)",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Damien Benedetti",
+      "email": "damien@hcloud.fr"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "HCloud\\HSign\\": "src/"
+    }
+  }
+}
